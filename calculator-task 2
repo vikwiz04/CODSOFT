@@ -1,0 +1,14 @@
+num1 = int(input("Enter a num1: "))
+num2 = int(input("Enter a num2: "))
+op = input("Enter operator: ")
+if op == '+':
+    print("sum:", num1 + num2)
+elif op == '-':
+    print("diff:", num1 - num2)
+elif op == '*':
+    print("product:", num1 * num2)
+elif op == '/':
+    print("quotient:", num1 / num2)
+else:
+    print("Invalid operator")
+
